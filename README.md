@@ -31,7 +31,7 @@ Click on the configuration (</>) icon for the web app you want to set up. This w
 
 You will see a script like this:
 
-```
+```javascript
 const firebaseConfig = {
   apiKey: "YOUR_API_KEY",
   authDomain: "YOUR_AUTH_DOMAIN",
@@ -46,14 +46,14 @@ const firebaseConfig = {
 Step 4: Include Firebase in Your Project
 
 In your open-source project, include the Firebase JavaScript SDK in your HTML file by adding the following script tag (you can also link it from a CDN):
-```
+```javascript
 <script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js"></script>
 ```
 You can also add other Firebase services (e.g., Firestore, Realtime Database, Authentication) as needed.
 Step 5: Initialize Firebase
 
 Initialize Firebase in your JavaScript code with the firebaseConfig object you obtained earlier:
-```
+```javascript
 // Import the initializeApp function
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.19.1/firebase-app.js";  '''
 
